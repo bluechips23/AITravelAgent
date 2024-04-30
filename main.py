@@ -22,10 +22,6 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = config.get("Environment Variables
 os.environ["DOC_FOLDER_PATH"] = config.get("Environment Variables", "DOC_FOLDER_PATH")
 os.environ["LANGCHAIN_TRACING_V2"] = config.get("Environment Variables", "LANGCHAIN_TRACING_V2")
 os.environ["LANGCHAIN_API_KEY"] = config.get("Environment Variables", "LANGCHAIN_API_KEY")
-#os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/mishra/PycharmProjects/GCP_PRIVATE_KEYS/april28_2024_myproject-154620-f37e5376cf4d.json"
-#os.environ["DOC_FOLDER_PATH"] = "/Users/mishra/PycharmProjects/AITravelAgent/docs/Texts"
-#os.environ["LANGCHAIN_TRACING_V2"] = "true"
-#os.environ["LANGCHAIN_API_KEY"] = "ls__d992541cca094691945560d7bf9472ec"
 
 
 def format_docs(docs):
