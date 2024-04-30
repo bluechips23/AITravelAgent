@@ -1,0 +1,5 @@
+docs/
+environ.conf
+.idea/misc.xml
+.idea/workspace.xml
+.DS_Store/
